@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>For My Queen — Happy Queen's Day</title>
+    <meta
+      name="description"
+      content="A lovely, brave tribute — a personal Queen's Day message with heart & flower animation."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="globalAnimation" class="global-animation" aria-hidden="true"></div>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h1 class="brand">For My Queen</h1>
+        <nav>
+          <button id="toggleMotion" class="btn" aria-pressed="false">
+            Pause Animation
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <section class="hero" aria-labelledby="greetingTitle">
+        <div class="hero-content">
+          <h2 id="greetingTitle">To my dearest — on Queen's Day</h2>
+          <p class="message">
+            You are my queen — both gentle and brave. Today we celebrate the
+            warmth of your smile, the courage in your heart, and the love you
+            give so freely. May your day be as radiant as you make every moment
+            of my life. Forever yours.
+          </p>
+          <p class="signature">— With all my love</p>
+        </div>
+        <div class="visuals" aria-hidden="true">
+          <div
+            id="animationArea"
+            class="animation-area"
+            aria-hidden="true"
+          ></div>
+        </div>
+      </section>
+
+      <section class="details">
+        <h3>Why today matters</h3>
+        <p>
+          Queen's Day is a celebration of leadership, kindness, and courage —
+          qualities I see in you every day. This page is a small tribute to how
+          much you mean to me.
+        </p>
+      </section>
+    </main>
+
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
